@@ -1,0 +1,18 @@
+<div id='protuer' class='animated {{animate}}' ng-controller='proctuer'>
+ 	<ul class='xuan'>
+ 		<li>推荐</li>
+ 		<li>最新</li>
+ 	</ul>
+ 	<div class='xuantxt' ng-repeat='i in data.xuan'>	
+ 		<div class="xuantxt1"><img ng-src="{{i.img}}"></div>
+ 		<ul class="xuantxt2">
+ 			<li><b>{{i.biaoti}}</b></li>
+ 			<li>{{i.txt}}</li>
+ 			<li>{{i.txt1}}</li>
+ 			<li>{{i.txt2}}</li>
+ 			<li>{{i.txt3}}</li>
+ 			<li><strong>{{i.pirce | currency }}</strong></li>
+ 		</ul>
+ 	</div>	
+
+</div>

@@ -1,0 +1,13 @@
+<div ng-controller='hometwo' class='animated {{animate}} hometwo' >
+	<div class='hometwoheader'>
+		<a href="javascript:;" id='homereturn' ng-click='returnBtn()'></a>
+		<div>{{title}}</div>
+	</div>
+	<div class='hometwobox'>
+		<home-page1 ng-show='{{pageShow1}}'></home-page1>
+		<home-page2 ng-show='{{pageShow2}}'></home-page2>
+		<home-page3 ng-show='{{pageShow3}}'></home-page3>
+		<home-page4 ng-show='{{pageShow4}}'></home-page4>
+		<home-page5 ng-show='{{pageShow5}}'></home-page5>
+	</div>
+</div>

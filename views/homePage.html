@@ -1,0 +1,22 @@
+<!-- 首页 -->
+<div class='wrap' ng-controller='homepage'class='animated {{animate}}'>
+	<header>
+		<a href="javascript:;"></a>
+		<a href="javascript:;"></a>
+		<div class='headerBox' ng-show='{{headerBoxshow}}'>
+			<span></span><input type='text' placeholder="搜索菜谱">
+		</div>
+		<div class='wrapnav' ng-show='{{ !headerBoxshow }}'>{{headernav}}</div>
+	</header>
+	<div ui-view class='main'></div>
+	<footer>
+		<ul>
+			<li ng-repeat='i in caipu' ng-click='tabBtn($index)'>
+				<a ui-sref="{{i.id}}" ng-class="{true:'yellow',false:'black'}[i.flag]">
+					<i><img ng-src="images/nav{{i.img1}}.png"></i>
+					<b>{{i.title}}</b>
+				</a>
+			</li>
+		</ul>
+	</footer>
+</div> 

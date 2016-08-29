@@ -1,0 +1,138 @@
+<div ng-controller='submitMysql'>
+	<div class='loginheader'>
+		<a href="javascript:;" ng-click='return()'></a>
+		<p>注册详细页</p>
+	</div>
+	<div class='registerbox'>
+		<form  name="myForm" novalidate>
+			<ul>
+				<li>  
+					<input type="tel" name="t" ng-model="username" required pattern="^1[345678][0-9]{9}$" placeholder='手机号'>
+				  	<span style="color:red" ng-class='{true:"cuo",false:"dui"}[myForm.t.$dirty && myForm.t.$invalid]'
+				  	></span>
+				</li>
+				<li>
+					<input type="text" name="pass" ng-model="password" required pattern="^[a-zA-Z]\w{5,17}$" placeholder='密码以字母开头，长度在6~18之间'>
+				  	<span style="color:red" ng-class='{true:"cuo",false:"dui"}[myForm.pass.$dirty && myForm.pass.$invalid]'
+				  	></span>
+				</li>
+				<li>  
+					<input type="text" name="n" ng-model="name" required pattern="^[\u4E00-\u9FA5]{2,}$" placeholder='姓名'>
+				  	<span style="color:red" ng-class='{true:"cuo",false:"dui"}[myForm.n.$dirty && myForm.n.$invalid]'
+				  	></span>
+				</li>
+				<li>  
+					<input type="text" name="a" ng-model="age" required pattern="^(\d{1,2})$" placeholder='年龄'>
+				  	<span style="color:red" ng-class='{true:"cuo",false:""}[myForm.a.$dirty && myForm.a.$invalid]'
+				  	></span>
+				</li> 
+				<li>  
+				  	性别：
+			  		<input type='radio' name='sex' value='男' ng-model='sex' ng-checked='true'>男
+			  		<input type='radio' name='sex' value='女' ng-model='sex'>女
+				</li>
+				<li>
+					<button ng-click='submitMysql(username,password,name,age)' ng-class='{true:"sub",false:"msub"}[myForm.t.$dirty && myForm.t.$invalid || myForm.pass.$dirty && myForm.pass.$invalid || myForm.n.$dirty && myForm.n.$invalid || myForm.a.$dirty && myForm.a.$invalid]'>提交注册</button>
+				</li>
+			</ul>
+		</form>
+	</div>
+</div>
+
+
+<!-- 
+	$valid
+
+	$valid值可以告诉我们当前的控件中是否有错误。当有错误时值为false，没有错误时值为true。
+
+	$invalid
+
+	$invalid值可以告诉我们当前控件中是否存在至少一个错误，它的值和$valid相反。
+
+	$error
+
+	$error对象中保存着没有通过验证的验证器名称以及对应的错误信息。
+
+	$pristine
+
+	$pristine的值是布尔型的，可以告诉我们用户是否对控件进行了修改。
+
+	$dirty
+
+	$dirty的值和$pristine相反，可以告诉我们用户是否和控件进行过交互。
+
+	$parsers 
+
+	$parsers的值是一个由函数组成的数组，当用户同控制器进行交互，并且ngModelController中的$setViewValue()方法被调用时，其中的函数在当用户同控制器进行交互，并且ngModelController中的$setViewValue()方法被调会以流水线的形式被逐一调用。ngModel从DOM中读取的值会被传入$parsers中的函数，并依次被其中的解析器处理。这是为了对值进行处理和修饰。
+
+	 $error
+
+	$error对象中保存着没有通过验证的验证器名称以及对应的错误信息。
+	
+	关于这点需要明确一下
+	type并不能作为验证依据,
+	type字段只是为输入提供选择格式,
+	更多情况下应该说新增的type是为了适配移动端web app的存在
+	例如说当type=tel的时候,在手机上打开页面会出现电话键盘(不是数字键盘,两者并不一样,电话键盘还包括*和#)
+	当type=email的时候,会出现带@和.com符号的全键盘(各设配各系统实现貌似有差异)
+	所以才要有pattern的存在,
+	当触发表单提交的时候,浏览器会将输入与pattern属性做匹配来最终判断是否有效输入
+	当然了,后端验证数据有效性就在此问题的范畴之外了
+
+
+
+
+	属性类		描述
+$valid	ng-valid	Boolean  告诉我们这一项当前基于你设定的规则是否验证通过
+$invalid	ng-invalid	Boolean  告诉我们这一项当前基于你设定的规则是否验证未通过
+$pristine	ng-pristine	Boolean  如果表单或者输入框没有使用则为True
+$dirty	ng-dirty	Boolean  如果表单或者输入框有使用到则为True
+
+
+<div class='registerbox'>
+		<form  name="myForm" novalidate>
+			<ul>
+				<li>  
+					<input type="tel" name="t" ng-model="username" required pattern="^1[345678][0-9]{9}$" placeholder='手机号'>
+				  	<span style="color:red" ng-show="myForm.t.$dirty && myForm.t.$invalid">
+					  	<span ng-show="myForm.t.$error.required">请输入手机号</span>
+					  	<span ng-show="myForm.t.$error.pattern">手机号不正确</span>
+				  	</span>
+				</li>
+				<li>
+					<input type="text" name="pass" ng-model="password" required pattern="^[a-zA-Z]\w{5,17}$" placeholder='密码以字母开头，长度在6~18之间'>
+				  	<span style="color:red" ng-show="myForm.pass.$dirty && myForm.pass.$invalid">
+					  	<span ng-show="myForm.pass.$error.required">以字母开头，长度在6~18之间</span>
+					  	<span ng-show="myForm.pass.$error.pattern">密码不正确</span>
+				  	</span>
+				</li>
+				<li>  
+					<input type="text" name="n" ng-model="name" required pattern="^[\u4E00-\u9FA5]{2,}$" placeholder='姓名'>
+				  	<span style="color:red" ng-show="myForm.n.$dirty && myForm.n.$invalid">
+					  	<span ng-show="myForm.n.$error.required">请输入姓名</span>
+					  	<span ng-show="myForm.n.$error.pattern">请输入正确的姓名</span>
+				  	</span>
+				</li>
+				<li>  
+					<input type="text" name="a" ng-model="age" required pattern="^(\d{1,2})$" placeholder='年龄'>
+				  	<span style="color:red" ng-show="myForm.a.$dirty && myForm.a.$invalid">
+					  	<span ng-show="myForm.a.$error.required">请输入年龄</span>
+					  	<span ng-show="myForm.a.$error.pattern">请输入正确的年龄</span>
+				  	</span>
+				</li> 
+				<li>  
+				  	性别：
+			  		<input type='radio' name='sex' value='男' ng-model='sex' ng-checked='true'>男
+			  		<input type='radio' name='sex' value='女' ng-model='sex'>女
+				</li>
+				<li>
+					<button ng-click='submitMysql(username,password,name,age)' ng-class='{true:"sub",false:"msub"}[myForm.t.$dirty && myForm.t.$invalid || myForm.pass.$dirty && myForm.pass.$invalid || myForm.n.$dirty && myForm.n.$invalid || myForm.a.$dirty && myForm.a.$invalid]'>提交注册</button>
+				</li>
+			</ul>
+		</form>
+	</div>
+
+
+
+
+ -->

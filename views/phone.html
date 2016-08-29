@@ -1,0 +1,36 @@
+<div ng-controller='phone'>
+	<div class='loginheader'>
+		<a href="javascript:;" ng-click='return()'></a>
+		<p>登录</p>
+	</div>
+	<div class='phone'>
+		<form name="myForm" novalidate>
+			<ul>
+				<!-- <li><input type='text' placeholder='请输入用户名' ng-model='user'></li> -->
+				<li>  
+					<input type="tel" name="t" ng-model="user" required pattern="^1[345678][0-9]{9}$" placeholder='请输入手机号'>
+				  	<span style="color:red" ng-class='{true:"cuo",false:"dui"}[myForm.t.$dirty && myForm.t.$invalid]'
+				  	></span>
+				</li>
+				<!-- <li><input type='text' placeholder='请设置输入面，不小于6位' ng-model='password'></li> -->
+				<li>
+					<input type="text" name="pass" ng-model="password" required pattern="^[a-zA-Z]\w{5,17}$" placeholder='密码以字母开头，长度在6~18之间'>
+				  	<span style="color:red" ng-class='{true:"cuo",false:"dui"}[myForm.pass.$dirty && myForm.pass.$invalid]'
+				  	></span>
+				</li>
+				<!-- <li><button ng-click='submit(user,password)'>登录</button></li> -->
+				<li>
+					<button ng-click='submit(user,password)' ng-class='{true:"sub",false:"msub"}[myForm.t.$dirty && myForm.t.$invalid || myForm.pass.$dirty && myForm.pass.$invalid ]'>登录</button>
+				</li>
+			</ul>
+		</form>
+	</div>
+	<div class='qita'>
+		<p>其他方式登录</p>
+		<ul class='qitaul'>
+			<li><img src="images/loginqq1.png"></li>
+			<li><img src="images/loginqq2.png"></li>
+			<li><img src="images/loginqq3.png"></li>
+		</ul>
+	</div>
+</div>

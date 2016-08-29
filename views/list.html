@@ -1,0 +1,25 @@
+<div id='list' class='animated {{animate}}' ng-controller='list'>
+	<div class='talkul'>
+		<ul>
+	 		<li>全部</li>
+	 		<li>最新</li>
+	 		<li>热门</li>
+	 		<li>精华</li>
+	 	</ul>
+	</div>
+ 	<div class='talktxt' ng-repeat = "i in data.talk">
+ 		<div class='pictxt'>
+ 			<img ng-src="{{i.t1}}">
+ 			<div>
+ 				<p>{{i.t2}}</p>
+ 				<span>{{i.t3}}</span>
+ 			</div>
+ 		</div>
+ 		<p class='picp'>{{i.t4}}</p>
+ 		<ul class='pictxt1'>
+ 			<li><img ng-src="{{i.t5}}"></li>
+ 			<li><img ng-src="{{i.t6}}"></li>
+ 			<li><img ng-src="{{i.t7}}"></li>
+ 		</ul>
+ 	</div> 
+</div>

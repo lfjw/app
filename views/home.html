@@ -1,0 +1,35 @@
+
+<div id='home' class='animated {{animate}}' ng-controller='home'>
+  	<div class='login_img' >
+        <div class="swiper-container" swiper-dom>
+          	<div class="swiper-wrapper">
+              <!-- <div class="swiper-slide" ng-repeat='i in data.pic'><img ng-src="{{i.img}}"></div>  -->
+              	<div class="swiper-slide"><img src="images/swiper1.png"></div>
+              	<div class="swiper-slide"><img src="images/swiper2.png"></div>
+              	<div class="swiper-slide"><img src="images/swiper3.png"></div>
+          	</div>
+          	<div class="swiper-pagination"></div>
+      	</div>
+  	</div>
+  	<div class='login_nav'>
+  		<ul>
+  			<li ng-repeat='i in data.caipu'>
+          <a ui-sref='hometwo({"id":{{i.id}}})'>
+    				<dl>
+    					<dt><img ng-src="{{i.img}}"></dt>
+    					<dd>{{i.title}}</dd>
+    				</dl>
+          </a>
+  			</li>
+  		</ul>
+  	</div>
+	<div class='login_text' ng-repeat="i in data.name">
+          <div>
+            <img ng-src="{{i.img}}">
+          </div>
+          <ul>
+            <li>{{i.txt}}</li>
+            <li>{{i.neirong}}</li>
+          </ul>    
+    </div> 
+</div>

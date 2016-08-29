@@ -1,0 +1,374 @@
+{	
+	
+	"caiputext" : {
+		"1" : {
+			"txt" : [
+				{ 
+					"txt1" : "麻辣小龙虾爽口" , 
+					"txt2" : "夏季到来，怎么能少了麻辣小龙虾呢？一起来体验吧",
+					"img" : "images/home1.png" 
+				},
+				{ 
+					"txt1" : "消暑冰激凌" , 
+					"txt2" : "夏季到来，怎么能少了麻辣小龙虾呢？一起来体验吧",
+					"img" : "images/home2.png" 
+				},
+				{ 
+					"txt1" : "清热解暑水果" , 
+					"txt2" : "炎热的夏季怎能少了寿司呢？",
+					"img" : "images/home3.png" 
+				},
+				{ 
+					"txt1" : "回转寿司宴" , 
+					"txt2" : "天太热，很容易出现上火或者心情烦躁等情况",
+					"img" : "images/home4.png" 
+				},
+				{ 
+					"txt1" : "意大利面" , 
+					"txt2" : "来吧，正宗的意大利面",
+					"img" : "images/home5.png" 
+				},
+				{ 
+					"txt1" : "意大利面" , 
+					"txt2" : "来吧，正宗的意大利面",
+					"img" : "images/home6.png" 
+				}
+			]
+		}
+	},
+
+	"nav":[
+
+			[
+				"麻辣小龙虾",
+				"夏季正值吃口味虾的最佳季节，在夜幕降临的时候，走在长沙的街头巷尾，你会发现几乎每桌的食客都在对其桌上的那一盆盆口味虾在“张牙舞爪”，尽管个个被辣得嘴巴通红、眼泪汪汪、满头大汗，却依然都是那么乐此不疲，满怀斗志。口味虾，长沙人喜欢叫它为龙虾，其实并不是龙虾。虾子大的约五寸长，有双钳，壳硬；传说是从澳洲引进，后来，没有天敌，搞的到处都是，甚至还喜欢在大堤下面打洞，危害一方，生长非常快，所以长沙人一边吃它还一边带着一股为民除害的神情。"
+			],
+			[
+				"消暑冰激凌",
+				"冰淇淋（ice cream），是以饮用水、牛奶、奶粉、奶油（或植物油脂）、食糖等为主要原料，加入适量食品添加剂，经混合、灭菌、均质、老化、凝冻、硬化等工艺而制成的体积膨胀的冷冻食品，口感细腻、柔滑、清凉。冰淇淋，又称雪糕，奶糕，豆糕和炒冰块等等，种类繁多，花样百出，但制作方法大致不外乎用乳或乳制品、蛋或蛋制品、甜味剂、香味剂、稳定剂及食用色素作原料，经冷冻加工而成，是夏令冷饮品的重要组成部分，对人体有一定的保健作用，是夏天清凉去暑的好食品。"
+			
+			],
+			[
+				"清热解暑水果",
+				"椰子的营养价值很高。在我国古代，中医就认为，椰肉味甘，性平，具有补益脾胃、杀虫消疳的功效;椰汁味甘，性温，有生津、利水等功能。现代医学研究表明，椰肉中含有蛋白质、碳水化合物;椰油中含有糖份、维生素B1、维生素B2、维生素C等;椰汁含有的营养成分更多，如果糖、葡萄糖、蔗糖、蛋白质、脂肪、维生素B、维生素C以及钙、磷、铁等微量元素及矿物质。椰汁含糖类、脂肪、蛋白质、生长激素、维生素和大量的人体必需的微量元素，经常饮用，能补充细胞内液，扩充血容量，滋润皮肤，具有驻颜美容作用。椰子性偏温热，不宜过量饮用;同时病毒性肝炎、脂肪肝、支气管哮喘、高血压、脑血管、胰腺炎、糖尿病等患者也应忌食。"
+			],
+			[				"回转寿司宴",
+				"寿司是日本传统美食之一。主要材料是用寿司醋调味过的维持在人体体温的饭块，再加上鱼肉，海鲜，蔬菜或鸡蛋等作配料，其味道鲜美，很受日本民众的喜爱。寿司在公元九二七年完成的平安时代法典「延喜式」中，就已有记载。当时的寿司指的是一种保存鱼的方式。在鱼身上抹上盐，用重物压紧，使之自然发酵。当产生酸味后，用水晶米包裹即可食用（水晶米煮熟冷却之后要通过反复碾压），其味甚佳。这种方式起源于日本本土。据《东夷列传-倭国传》记载倭人生食海物，即生鱼片（刺身），后与米粒包裹，形成一种速食。"
+			],
+			[
+				"意大利面",
+				"意大利面，也被称为意粉，是西餐正餐中最接近中国人饮食习惯的面点。意大利面条有很多种类，每种都有自己的名称，长短有差，其空心的种类被部分汉语使用者称为通心粉。关于意大利面条的起源，有说是源自古罗马，也有的说是由马可·波罗从中国经由西西里岛传至整个欧洲的讲法。 作为意大利面的法定原料，杜兰小麦是最硬质的小麦品种，具有高密度、高蛋白质、高筋度等特点，其制成的意大利面通体呈黄色，耐煮、口感好。意大利面根据种类形状也各不相同，除了中国人认为是面条的的直身粉外还有螺丝型的、弯管型的、蝴蝶型的、空心型，贝壳型的林林总总数百种。"
+			],
+			[
+				"麻辣小龙虾",
+				"夏季正值吃口味虾的最佳季节，在夜幕降临的时候，走在长沙的街头巷尾，你会发现几乎每桌的食客都在对其桌上的那一盆盆口味虾在“张牙舞爪”，尽管个个被辣得嘴巴通红、眼泪汪汪、满头大汗，却依然都是那么乐此不疲，满怀斗志。口味虾，长沙人喜欢叫它为龙虾，其实并不是龙虾。虾子大的约五寸长，有双钳，壳硬；传说是从澳洲引进，后来，没有天敌，搞的到处都是，甚至还喜欢在大堤下面打洞，危害一方，生长非常快，所以长沙人一边吃它还一边带着一股为民除害的神情。"
+			]
+
+	],	
+	"navtwo":[
+			["10","最新推荐","images/home-nav1.png","最新推荐内容"],
+			["11","热门菜系","images/home-nav2.png","热门菜系内容"],
+			["12","甜点","images/home-nav3.png","热门菜系内容"],
+			["13","水果蛋糕","images/home-nav4.png","热门菜系内容"],
+			["14","川菜系","images/home-nav5.png","热门菜系内容"],
+			["15","粤菜系","images/home-nav6.png","热门菜系内容"],
+			["16","鲁菜系","images/home-nav7.png","热门菜系内容"],
+			["17","所有菜系","images/home-nav8.png","热门菜系内容"],
+			["18","热门","images/home-nav9.png","热门菜系内容"],
+			["19","最新推荐","images/home-nav1.png","热门菜系内容"],
+			["110","热门菜系","images/home-nav2.png","热门菜系内容"],
+			["111","甜点","images/home-nav3.png","热门菜系内容"]
+	],	
+	"fenlei":[
+		{
+			"id":"1",
+			"name":"推荐",
+			"fal":false,
+			"text":[
+				{"img":"images/home-nav1.png","t":"最新推荐","id":"1"},
+				{"img":"images/home-nav2.png","t":"热门菜系","id":"1"},
+				{"img":"images/home-nav3.png","t":"甜点","id":"1"},
+				{"img":"images/home-nav4.png","t":"水果蛋糕","id":"1"},
+				{"img":"images/home-nav5.png","t":"川菜系","id":"1"},
+				{"img":"images/home-nav6.png","t":"粤菜系","id":"1"},
+				{"img":"images/home-nav7.png","t":"鲁菜系","id":"1"},
+				{"img":"images/home-nav8.png","t":"所有菜系","id":"1"},
+				{"img":"images/home-nav9.png","t":"热门"},
+				{"img":"images/home-nav1.png","t":"最新推荐","id":"1"},
+				{"img":"images/home-nav2.png","t":"热门菜系","id":"1"},
+				{"img":"images/home-nav3.png","t":"甜点","id":"1"}
+			]
+		},
+		{
+			"id":"2",
+			"name":"家常菜",
+			"fal":false,
+			"text":[
+				{"img":"images/home-nav2.png","t":"热门菜系"},
+				{"img":"images/home-nav3.png","t":"甜点"},
+				{"img":"images/home-nav4.png","t":"水果蛋糕"},
+				{"img":"images/home-nav5.png","t":"川菜系"},
+				{"img":"images/home-nav6.png","t":"粤菜系"},
+				{"img":"images/home-nav7.png","t":"鲁菜系"},
+				{"img":"images/home-nav8.png","t":"所有菜系"},
+				{"img":"images/home-nav9.png","t":"热门"}
+			]
+		},
+		{
+			"id":"3",
+			"name":"主食小吃",
+			"fal":false,
+			"text":[
+				{"img":"images/home-nav1.png","t":"最新推荐"},
+				{"img":"images/home-nav2.png","t":"热门菜系"},
+				{"img":"images/home-nav3.png","t":"甜点"},
+				{"img":"images/home-nav4.png","t":"水果蛋糕"},
+				{"img":"images/home-nav5.png","t":"川菜系"},
+				{"img":"images/home-nav6.png","t":"粤菜系"},
+				{"img":"images/home-nav7.png","t":"鲁菜系"},
+				{"img":"images/home-nav8.png","t":"所有菜系"},
+				{"img":"images/home-nav9.png","t":"热门"},
+				{"img":"images/home-nav1.png","t":"最新推荐"},
+				{"img":"images/home-nav1.png","t":"最新推荐"},
+				{"img":"images/home-nav2.png","t":"热门菜系"}
+			]
+		},
+		{
+			"id":"4",
+			"name":"甜品饮品",
+			"fal":false,
+			"text":[
+				{"img":"images/home-nav2.png","t":"热门菜系"},
+				{"img":"images/home-nav3.png","t":"甜点"},
+				{"img":"images/home-nav4.png","t":"水果蛋糕"},
+				{"img":"images/home-nav5.png","t":"川菜系"},
+				{"img":"images/home-nav6.png","t":"粤菜系"},
+				{"img":"images/home-nav7.png","t":"鲁菜系"},
+				{"img":"images/home-nav8.png","t":"所有菜系"},
+				{"img":"images/home-nav9.png","t":"热门"}
+			]
+		},
+		{
+			"id":"5",
+			"name":"中式菜系",
+			"fal":false,
+			"text":[
+				{"img":"images/home-nav7.png","t":"鲁菜系"},
+				{"img":"images/home-nav8.png","t":"所有菜系"},
+				{"img":"images/home-nav9.png","t":"热门"},
+				{"img":"images/home-nav1.png","t":"最新推荐"},
+				{"img":"images/home-nav1.png","t":"最新推荐"},
+				{"img":"images/home-nav2.png","t":"热门菜系"},
+				{"img":"images/home-nav3.png","t":"甜点"},
+				{"img":"images/home-nav4.png","t":"水果蛋糕"},
+				{"img":"images/home-nav5.png","t":"川菜系"},
+				{"img":"images/home-nav6.png","t":"粤菜系"}
+			]
+		},
+		{
+			"id":"6",
+			"name":"外国美食",
+			"fal":false,
+			"text":[
+				{"img":"images/home-nav1.png","t":"最新推荐"},
+				{"img":"images/home-nav2.png","t":"热门菜系"},
+				{"img":"images/home-nav3.png","t":"甜点"},
+				{"img":"images/home-nav8.png","t":"所有菜系"},
+				{"img":"images/home-nav9.png","t":"热门"},
+				{"img":"images/home-nav1.png","t":"最新推荐"},
+				{"img":"images/home-nav4.png","t":"水果蛋糕"},
+				{"img":"images/home-nav5.png","t":"川菜系"},
+				{"img":"images/home-nav6.png","t":"粤菜系"},
+				{"img":"images/home-nav7.png","t":"鲁菜系"}
+				
+			]
+		},
+		{
+			"id":"7",
+			"name":"饮食方式",
+			"fal":false,
+			"text":[
+				{"img":"images/home-nav1.png","t":"最新推荐"},
+				{"img":"images/home-nav2.png","t":"热门菜系"},
+				{"img":"images/home-nav3.png","t":"甜点"},
+				{"img":"images/home-nav7.png","t":"鲁菜系"},
+				{"img":"images/home-nav8.png","t":"所有菜系"},
+				{"img":"images/home-nav9.png","t":"热门"},
+				{"img":"images/home-nav4.png","t":"水果蛋糕"},
+				{"img":"images/home-nav5.png","t":"川菜系"},
+				{"img":"images/home-nav6.png","t":"粤菜系"},
+				{"img":"images/home-nav1.png","t":"最新推荐"}
+			]
+		},
+		{
+			"id":"8",
+			"name":"健康食补",
+			"fal":false,
+			"text":[
+				{"img":"images/home-nav8.png","t":"所有菜系"},
+				{"img":"images/home-nav9.png","t":"热门"},
+				{"img":"images/home-nav1.png","t":"最新推荐"},
+				{"img":"images/home-nav1.png","t":"最新推荐"},
+				{"img":"images/home-nav2.png","t":"热门菜系"},
+				{"img":"images/home-nav3.png","t":"甜点"},
+				{"img":"images/home-nav4.png","t":"水果蛋糕"},
+				{"img":"images/home-nav5.png","t":"川菜系"},
+				{"img":"images/home-nav6.png","t":"粤菜系"},
+				{"img":"images/home-nav8.png","t":"所有菜系"},
+				{"img":"images/home-nav9.png","t":"热门"},
+				{"img":"images/home-nav7.png","t":"鲁菜系"}
+				
+			]
+		},
+		{
+			"id":"9",
+			"name":"烘焙大全",
+			"fal":false,
+			"text":[
+				{"img":"images/home-nav4.png","t":"水果蛋糕"},
+				{"img":"images/home-nav5.png","t":"川菜系"},
+				{"img":"images/home-nav6.png","t":"粤菜系"},
+				{"img":"images/home-nav7.png","t":"鲁菜系"},
+				{"img":"images/home-nav1.png","t":"最新推荐"},
+				{"img":"images/home-nav2.png","t":"热门菜系"},
+				{"img":"images/home-nav3.png","t":"甜点"},
+				{"img":"images/home-nav8.png","t":"所有菜系"},
+				{"img":"images/home-nav9.png","t":"热门"},
+				{"img":"images/home-nav1.png","t":"最新推荐"},
+				{"img":"images/home-nav3.png","t":"甜点"},
+				{"img":"images/home-nav8.png","t":"所有菜系"}
+			]
+		},
+		{
+			"id":"10",
+			"name":"节日习俗",
+			"fal":false,
+			"text":[
+				{"img":"images/home-nav1.png","t":"最新推荐"},
+				{"img":"images/home-nav2.png","t":"热门菜系"},
+				{"img":"images/home-nav3.png","t":"甜点"},
+				{"img":"images/home-nav9.png","t":"热门"},
+				{"img":"images/home-nav1.png","t":"最新推荐"},
+				{"img":"images/home-nav4.png","t":"水果蛋糕"},
+				{"img":"images/home-nav5.png","t":"川菜系"},
+				{"img":"images/home-nav6.png","t":"粤菜系"},
+				{"img":"images/home-nav7.png","t":"鲁菜系"}
+			]
+		},
+		{
+			"id":"11",
+			"name":"烧烤分类",
+			"fal":false,
+			"text":[
+				{"img":"images/home-nav6.png","t":"粤菜系"},
+				{"img":"images/home-nav7.png","t":"鲁菜系"},
+				{"img":"images/home-nav8.png","t":"所有菜系"},
+				{"img":"images/home-nav9.png","t":"热门"},
+				{"img":"images/home-nav1.png","t":"最新推荐"},
+				{"img":"images/home-nav2.png","t":"热门菜系"},
+				{"img":"images/home-nav3.png","t":"甜点"},
+				{"img":"images/home-nav4.png","t":"水果蛋糕"},
+				{"img":"images/home-nav5.png","t":"川菜系"},
+				{"img":"images/home-nav1.png","t":"最新推荐"},
+				{"img":"images/home-nav4.png","t":"水果蛋糕"},
+				{"img":"images/home-nav5.png","t":"川菜系"}
+			]
+		},
+		{
+			"id":"12",
+			"name":"饮品",
+			"fal":false,
+			"text":[
+				{"img":"images/home-nav2.png","t":"最新推荐"},
+				{"img":"images/home-nav1.png","t":"热门菜系"},
+				{"img":"images/home-nav9.png","t":"甜点"},
+				{"img":"images/home-nav5.png","t":"水果蛋糕"},
+				{"img":"images/home-nav3.png","t":"川菜系"},
+				{"img":"images/home-nav2.png","t":"粤菜系"},
+				{"img":"images/home-nav8.png","t":"鲁菜系"},
+				{"img":"images/home-nav2.png","t":"所有菜系"},
+				{"img":"images/home-nav1.png","t":"热门"}
+			
+		]}
+	],
+	"caipu":[
+		{"img":"images/login_nav1.gif","title":"新菜谱","id":1},
+		{"img":"images/login_nav2.gif","title":"菜谱分类","id":2},
+		{"img":"images/login_nav3.gif","title":"食材","id":3},
+		{"img":"images/login_nav4.gif","title":"菜单","id":4},
+		{"img":"images/login_nav5.gif","title":"签到有礼","id":5}
+	],
+
+	"pic":[
+		{"img":"images/swiper1.png"},
+		{"img":"images/swiper2.png"},
+		{"img":"images/swiper3.png"}
+	],
+	"name":[
+		{"img":"images/shouye2.gif","txt":"麻辣诱惑，热情十足","neirong":"菜单丨辣菜就酒，就是这个feel"},
+		{"img":"images/shouye3.gif","txt":"麻辣诱惑，热情十足","neirong":"菜单丨辣菜就酒，就是这个feel"},
+		{"img":"images/shouye4.gif","txt":"麻辣诱惑，热情十足","neirong":"菜单丨辣菜就酒，就是这个feel"},
+		{"img":"images/shouye2.gif","txt":"麻辣诱惑，热情十足","neirong":"菜单丨辣菜就酒，就是这个feel"},
+		{"img":"images/shouye3.gif","txt":"麻辣诱惑，热情十足","neirong":"菜单丨辣菜就酒，就是这个feel"},
+		{"img":"images/shouye4.gif","txt":"麻辣诱惑，热情十足","neirong":"菜单丨辣菜就酒，就是这个feel"}
+	
+	],
+	"talk":[
+		{
+			"t1":"images/talk1.gif",
+			"t2":"心飞翔",
+			"t3":"13秒",
+			"t4":"每天都是美好的一天，做喜欢吃的菜",
+			"t5":"images/talk2.gif",
+			"t6":"images/talk3.gif",
+			"t7":"images/talk4.gif"
+		},
+		{
+			"t1":"images/talk5.gif",
+			"t2":"心飞翔",
+			"t3":"13秒",
+			"t4":"每天都是美好的一天，做喜欢吃的菜",
+			"t5":"images/talk6.gif",
+			"t6":"images/talk7.gif",
+			"t7":"images/talk8.gif"
+		},
+		{
+			"t1":"images/talk9.gif",
+			"t2":"心飞翔",
+			"t3":"13秒",
+			"t4":"每天都是美好的一天，做喜欢吃的菜",
+			"t5":"images/talk10.gif",
+			"t6":"images/talk11.gif",
+			"t7":"images/talk12.gif"
+		}
+	],
+	"xuan":[
+		{
+			"img":"images/xuan1.gif",
+			"biaoti":"创意DIY小夜灯",
+			"txt":"亲手制作出来梦想中海底世界一定是最美的！",
+			"txt1":"这款产品为海底世界主题的小夜灯",
+			"txt2":"配送小部件以及镊子，通过简单的DIY",
+			"txt3":"加入水就可以完成制作",
+			"pirce":"48"
+		},
+		{
+			"img":"images/xuan1.gif",
+			"biaoti":"创意DIY小夜灯",
+			"txt":"亲手制作出来梦想中海底世界一定是最美的！",
+			"txt1":"这款产品为海底世界主题的小夜灯",
+			"txt2":"配送小部件以及镊子，通过简单的DIY",
+			"txt3":"加入水就可以完成制作",
+			"pirce":"48"
+		},
+		{
+			"img":"images/xuan1.gif",
+			"biaoti":"创意DIY小夜灯",
+			"txt":"亲手制作出来梦想中海底世界一定是最美的！",
+			"txt1":"这款产品为海底世界主题的小夜灯",
+			"txt2":"配送小部件以及镊子，通过简单的DIY",
+			"txt3":"加入水就可以完成制作",
+			"pirce":"48"
+		}
+	]
+}

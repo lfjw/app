@@ -1,0 +1,776 @@
+@charset "UTF-8";
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box; }
+body {
+  font-family: "黑体"; }
+a {
+  text-decoration: none; }
+li {
+  list-style: none; }
+html, body, .con, #container {
+  height: 100%;
+  width: 100%;
+  overflow: hidden; }
+.wrap {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }  
+.main{
+   -webkit-flex: 1;
+   overflow-y:scroll; 
+}
+header{
+  height: 50px;
+  background: #e76404;
+  position: relative;
+}
+header a{
+  height: 20px;
+  width: 20px;
+  position: absolute;
+}
+header a:nth-of-type(1){
+  position: absolute;
+  left: 5%;
+  background: url(../images/1.png) no-repeat;
+  background-size: 100% 100%;
+  top:15px;
+}
+header a:nth-of-type(2){
+  position: absolute;
+  right: 5%;
+  background: url(../images/4.png) no-repeat;
+  background-size: 100% 100%;
+  top:15px;
+}
+.wrapnav{
+  height: 50px;
+  width: 50%;
+  margin-left: 25%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  color: #fff;
+
+}
+
+.hometwo{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+}
+.hometwobox{
+  -webkit-flex:1;
+  overflow-y:scroll; 
+}
+.hometwoheader{
+  width: 100%;
+  height: 50px;
+  background: #e76404;
+  position: relative;
+  border-bottom: 1px solid #ccc;
+}
+#homereturn{
+  position: absolute;
+  left: 5%;
+  background:url(../images/login_1.gif) no-repeat;
+  background-size: 100% 100%;
+  top:15px;
+  height: 20px;
+  width: 20px;
+  z-index: 10;
+}
+.hometwoheader div{
+  height: 50px;
+  width: 50%;
+  margin-left: 25%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.headerBox{
+  position: absolute;
+  width: 60%;
+  height: 30px;
+  left: 20%;
+  top: 10px;
+  background: url(../images/2.png) no-repeat;
+  background-size: 100% 100%;
+}
+.headerBox span{
+  height: 30px;
+  width: 30px;
+  float: left;
+  background: url(../images/3.png) no-repeat;
+  background-size: 80% 80%;
+}
+.headerBox input{
+  height: 30px;
+  width: 80%;
+  float: left;
+  border: none;
+  background: #ed7116;
+  color: #fff;
+}
+
+.black{
+  color: #000;
+}
+.yellow{
+  color: #e76404;
+}
+
+
+
+footer{
+  height: 60px;
+  width: 100%;
+  background: #fdfbfa;
+  border-top: 1px solid #e0e0e0;
+}
+footer a{
+  width: 25%;
+  float: left;
+  text-align: center;
+  color: #000;
+}
+footer i{
+  float: left;
+  height: 25px;
+  width: 100%;
+  line-height: 25px;
+  margin-top: 5px;
+}
+footer b{
+  font-weight: normal;
+  float: left;
+  height: 25px;
+  width: 100%;
+  line-height: 25px;
+}
+footer a i img{
+  height: 25px;
+  width: 25px;
+}
+
+
+
+
+
+/*----------login----------*/
+.loginheader{
+  height: 50px;
+  background: #ed7116;
+  position: relative;
+}
+.loginheader a{
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  background: url(../images/loginqq4.png) no-repeat;
+  background-size: 70% 70%;
+  top: 15px;
+  left: 5%;
+}
+.loginheader p{
+  text-align: center;
+  line-height: 50px;
+  font-size: 18px;
+  color: #fff;
+}
+.loginbox{
+  height: 300px;
+  width: 90%;
+  margin-left: 5%;
+  border-bottom: 1px solid #ccc;
+}
+.loginbox ul li{
+  height: 40px;
+  width: 100%;
+  border: 1px solid #ccc;
+  margin-top: 30px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 10px;
+}
+.loginbox ul li:nth-of-type(3){
+  border: none;
+  margin-top: 20px;
+}
+
+.qita{
+  position: relative;
+}
+.qita p{
+  position: absolute;
+  top: -10px;
+  height: 10px;
+  background: #fff;
+  width: 50%;
+  margin-left: 25%;
+  text-align: center;
+}
+
+.qitaul{
+  width: 90%;
+  margin-left: 5%;
+  height: 50px;
+}
+.qitaul li{
+  float: left;
+  width: 33.3%;
+  text-align: center;
+  margin-top: 50px;
+}
+.qitaul li img{
+  height: 50px;
+  width: 50px;
+}
+
+/*------------register-----------*/
+
+.register{
+  height: 50px;
+  background: #ed7116;
+  position: relative;
+}
+.register a{
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  background: url(../images/loginqq4.png) no-repeat;
+  background-size: 100% 100%;
+  top: 15px;
+  left: 5%;
+}
+.register p{
+  text-align: center;
+  line-height: 50px;
+  font-size: 18px;
+  color: #fff;
+}
+.registerbox{
+  height: 300px;
+  width: 90%;
+  margin-left: 5%;
+}
+.sub{
+  opacity: 0.5;
+}
+.msub{
+  opacity: 1;
+}
+
+.cuo{
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  right: 0px;
+  top:5px;
+  background: url(../images/c.png) no-repeat;
+  background-size: 100% 100%;
+}
+.registerbox ul li span{
+  position: absolute;
+
+}
+.registerbox ul li{
+  height: 40px;
+  width: 100%;
+  margin-top: 30px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
+}
+.registerbox ul li:nth-of-type(6) button{
+    height: 40px;
+    width: 100%;
+    background: #ed7116;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.registerbox ul li input[type='text']{
+  height: 40px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding-left: 10px;
+  font-size: 16px;
+}
+.registerbox ul li input[type='number']{
+  height: 40px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding-left: 10px;
+  font-size: 16px;
+}
+.registerbox ul li input[type='tel']{
+  height: 40px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding-left: 10px;
+  font-size: 16px;
+}
+.registerbox ul li input[type='radio']{
+  border: none;
+  margin-left: 60px;
+}
+
+/*-------------------phone--------------------*/
+.phone{
+  height: 300px;
+  width: 90%;
+  margin-left: 5%;
+  border-bottom: 1px solid #ccc;
+}
+.phone ul li{
+  height: 40px;
+  width: 100%;
+  margin-top: 30px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
+}
+.phone ul li input[type='text']{
+  height: 40px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding-left: 10px;
+  font-size: 16px;
+}
+.phone ul li input[type='tel']{
+  height: 40px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding-left: 10px;
+  font-size: 16px;
+}
+.phone ul li:nth-of-type(3) button{
+    height: 40px;
+    width: 100%;
+    background: #ed7116;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.phone ul li input{
+  height: 40px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding-left: 10px;
+}
+
+
+
+
+
+
+
+.qita{
+  position: relative;
+}
+.qita p{
+  position: absolute;
+  top: -10px;
+  height: 10px;
+  background: #fff;
+  width: 50%;
+  margin-left: 25%;
+  text-align: center;
+}
+
+.qitaul{
+  width: 90%;
+  margin-left: 5%;
+  height: 50px;
+}
+.qitaul li{
+  float: left;
+  width: 33.3%;
+  text-align: center;
+  margin-top: 50px;
+}
+.qitaul li img{
+  height: 50px;
+  width: 50px;
+}
+
+/*----------hometwo-----------*/
+
+
+.hometwonav{
+  height: 40px;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+.hometwonav ul li{
+  float: left;
+  width: 33.3%;
+  text-align: center;
+  line-height: 40px;
+}
+.hometwonav ul li span{
+  float: left;
+  height: 40px;
+  width: 40%;
+
+  margin-left:30%; 
+  text-align: center;
+}
+.hometwonav ul li .bs{
+  border-bottom: 2px solid #e76404; 
+  color:  #e76404
+}
+.hometwotxt{
+  overflow: hidden;
+  height: 100%;
+  width: 90%;
+  margin-left: 5%;
+}
+.hometwotxt .tab1 a{
+  height: 100px;
+  float: left;
+  width: 100%;
+  color: #000;
+}
+.hometwotxt .tab1 dl{
+  height: 100px;
+}
+.hometwotxt .tab1 img{
+  height: 80px;
+  width: 80px;
+  float: left;
+  padding-right: 10px;
+}
+.hometwotxt .tab1 ul li {
+  line-height: 24px;
+}
+
+
+.hometwotxt .tab2 a{
+  height: 100px;
+  float: left;
+  width: 100%;
+  color: #000;
+}
+.hometwotxt .tab2 dl{
+  height: 100px;
+}
+.hometwotxt .tab2 img{
+  height: 80px;
+  width: 80px;
+  float: left;
+  padding-right: 10px;
+}
+.hometwotxt .tab2 ul li {
+  line-height: 24px;
+}
+
+
+.hometwotxt .tab3 a{
+  height: 100px;
+  float: left;
+  width: 100%;
+  color: #000;
+}
+.hometwotxt .tab3 dl{
+  height: 100px;
+}
+.hometwotxt .tab3 img{
+  height: 80px;
+  width: 80px;
+  float: left;
+  padding-right: 10px;
+}
+.hometwotxt .tab3 ul li {
+  line-height: 24px;
+}
+
+
+
+
+/*-----------shouye------------*/
+.login_img img{
+  height: 150px;
+  width: 100%;
+}
+.login_nav{
+  height: 100px;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+.login_nav a{
+  color: #000;
+}
+.login_nav ul li{
+  width: 20%;
+  float: left;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+.login_nav img{
+  height: 50px;
+  width: 50px;
+}
+.login_text{
+  width: 90%;
+  margin-left: 5%;
+  height: 70px;
+}
+.login_text img{
+  height: 50px;
+  width: 50px;
+}
+.login_text div{
+  float: left;
+}
+.login_text ul{
+  float: left;
+  padding-left: 10px;
+}
+.login_text ul li{
+  line-height: 24px;
+}
+
+/*--------------话题页------------*/
+#list{
+  height: 100%;
+  width: 100%;
+}
+.talkbox{
+  background: #ccc;
+}
+.talkul{
+  height: 50px;
+}
+.talkul li{
+  float: left;
+  width: 25%;
+  height: 50px;
+  border-bottom: 1px solid #ccc;
+  line-height: 50px;
+  text-align: center;
+}
+
+.talktxt{
+  margin-top: 10px;
+  width: 90%;
+  margin-left: 5%;
+  border-bottom: 1px solid #ccc;
+}
+.pictxt{
+  height: 60px;
+  padding-left:5px;
+}
+.pictxt img{
+  float: left;
+  height: 50px;
+  width: 50px;
+}
+.pictxt div{
+  float: left;
+  padding-left: 10px;
+}
+
+.picp{
+  height: 30px;
+  line-height: 30px;
+}
+.pictxt1{
+  height: 100px;
+
+}
+.pictxt1 img{
+  height: 80px;
+  width: 80px;
+}
+.pictxt1 li{
+  float: left;
+  width: 33.3%;
+  text-align: center;
+}
+
+
+/*---------珍选-----*/
+.xuan{
+  height: 50px;
+  border-bottom: 1px solid #ccc;
+}
+.xuan li{
+  float: left;
+  width: 50%;
+  text-align: center;
+  line-height: 50px;
+}
+.xuantxt1{
+  width: 90%;
+  margin-left: 5%;
+}
+.xuantxt1 img{
+  width: 100%;
+  height: auto;
+}
+.xuantxt2 li{
+  line-height: 24px;
+  width: 90%;
+  margin-left: 5%;
+}
+.xuantxt2 li strong{
+  color:#E66303; 
+}
+/*------------我的----------*/
+.myclear{
+  height: 10px;
+}
+.myappheader{
+  height: 200px;
+  background: #000;
+  color: #fff;
+  background: url(../images/myapp6.png) no-repeat;
+  background-size: 100% 100%;
+}
+.myappheader ul{
+  width: 50%;
+  margin-left: 25%;
+}
+.myappheader li{
+  line-height: 34px;
+  text-align: center;
+}
+.myappheader li:nth-of-type(2) span{
+  float: left;
+  height: 34px;
+  width: 100%;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.myappheader img{
+  height: 100px;
+  width: 100px;
+}
+.myul ul{
+  height: 100px;
+  line-height: 100px;
+}
+.myul li{
+  float: left;
+  width: 33.3%;
+  text-align: center;
+}
+.myultxt{
+  width: 95%;
+  margin-left: 5%;
+}
+.myultxt li{
+  line-height: 34px;
+  border-bottom: 1px solid #ccc;
+}
+.myultxt li:nth-of-type(6){
+  border-bottom: none;
+}
+.myultxt li img{
+  height: 15px;
+  width: 15px;
+}
+.myultxt li i{
+  float: right;
+  margin-right: 5%;
+}
+
+
+
+/*--------------swiper--------*/
+
+.swiper-container {
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+
+/*菜谱分类*/
+
+.page2bs{
+  color: #e76404;
+ 
+}
+.page2left{
+  width: 30%;
+  float: left;
+}
+.page2left li{
+  line-height: 34px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.page2right{
+  width: 70%;
+  float: right;
+  height: 100%;
+}
+.page2right div{
+  height: 100%;
+  width: 100%;
+  background: #ccc;
+}
+.page2right li{
+  float: left;
+  width: 33.3%;
+  text-align: center;
+  margin-top: 10px;
+}
+.page2right li img{
+  height: 60px;
+  width: 60px;
+}
+.page2right li dd{
+  font-size: 14px;
+  color: #000;
+}
+
